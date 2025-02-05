@@ -1,6 +1,16 @@
 "use strict"
 
-const cart = ['Emil', 'Frederik', 'Zimmer', 'Rune'];
+const myArray = ['Emil', 'Frederik', 'Zilmer', 'Rune'];
 
+for (let i = 0; i < myArray.length; i++) {
+    console.log(`${i+1}. ${myArray[i]}`);
+}
 
-console.log(cart);
+let person = prompt("Please enter your name", "Navn");
+let text;
+if (person == null || person == "") {
+  text = "User cancelled the prompt.";
+} else {
+  alert('Ha en god dag');
+} 
+
